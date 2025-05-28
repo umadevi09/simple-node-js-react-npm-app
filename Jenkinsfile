@@ -36,10 +36,9 @@ pipeline {
             steps {
                 junit 'junit.xml'
             }
-        }
-    }
+        }
+    }
 }
-        
 
 
 
