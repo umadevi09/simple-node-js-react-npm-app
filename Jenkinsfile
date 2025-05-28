@@ -21,7 +21,7 @@ pipeline {
                 sh 'npm install --save-dev jest-junit'
             }
         }
-        stage('Build') {
+         stage('Build') {
             steps {
                 sh 'npm run build'
             }
@@ -38,7 +38,10 @@ pipeline {
             }
         }
     }
+}
+        
+
+
 
         
-    }
 
