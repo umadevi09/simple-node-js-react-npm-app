@@ -36,7 +36,8 @@ pipeline {
             steps {
                 junit 'junit.xml'
             }
-        }stage("Run Code Analysis"){
+        }
+        stage("Run Code Analysis"){
             environment {
                 SCANNER_HOME = tool 'sonar-scan'
             }
